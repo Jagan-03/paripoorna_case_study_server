@@ -28,4 +28,4 @@ app.use(bodyParser.urlencoded({limit: '50mb', extended: true}));
         console.log(error);
     }
 })();
-app.listen(process.env.port || 8080, () => console.log("Listening on PORT 3001"));
+app.listen(process.env.PORT || 3001, () => console.log("Listening on PORT 3001"));
